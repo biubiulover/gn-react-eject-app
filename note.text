@@ -1,0 +1,8 @@
+本地项目关联远程repository
+git remote add origin ...
+
+解决README.md的问题，先变基拉取
+[git pull --rebase origin master]
+
+推送至远程master分支
+git push -u origin master
